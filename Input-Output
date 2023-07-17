@@ -1,0 +1,15 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: June 19 2023
+# Description: how to take input or output from user
+
+echo
+
+echo Hello Sir, My name is Shahnawaz Alam
+echo
+
+echo What is your name?
+read username # read will make a promt that take a input from user and username is a variable for that input
+echo
+echo hello $username  #  username is a variable = variable is like a container
+echo 

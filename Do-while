@@ -1,0 +1,10 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 19 2023
+# Description: Do-While Script when the condition doesnt meet then the script will rum repeatedly
+
+x=1
+while [ $x -le 5 ]
+do echo "Welcome $while times"
+ x=$(( $x + 1 ))
+done

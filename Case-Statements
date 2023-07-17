@@ -1,0 +1,27 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 19 2023
+# Description: Case Statement Scrip
+# Most of the installation Programm are written in case statement whete the script wait for user input like Yes/No.
+
+echo
+
+echo Please choose one of the options below
+echo
+echo "a = display the date and time"
+echo "b = List file and directory"
+echo "c = list users logged in"
+echo "d = check the system uptime"
+echo
+	read input
+	case $input in
+a) date;;
+b) ls;;
+c) who;;
+d) uptime;;
+*) echo invalid Choice-B-Bye # if any other option will choose except a,b,c,d then by the help of * it print invalid choice.
+
+
+
+esac
+

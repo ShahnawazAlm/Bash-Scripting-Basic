@@ -1,0 +1,29 @@
+#!/bin/bash
+# Name: Shahnawaz Alam
+# Define Variables
+echo
+p=pw
+echo
+
+l=ls
+echo
+
+wi=whoami
+echo
+d=date
+echo
+c=cal
+
+echo run Variable task
+
+echo
+
+$p
+$l
+$wi
+$d
+
+$c
+
+
+

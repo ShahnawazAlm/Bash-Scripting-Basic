@@ -1,0 +1,14 @@
+#!/bin/bash
+# Author: Shahnawaz alam
+# Date: jun 19 2023
+# Description: Simple Additional Calculator
+
+echo this is an additional calculation
+
+echo Starting
+
+read A
+
+read B
+
+echo the sum is:$(($A + $B))

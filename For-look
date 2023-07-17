@@ -1,0 +1,14 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 19 2023
+# Description: For loop script
+
+for i in 1 2 3 4 5
+do
+echo "Welcome to IT&NOC $i"
+done
+
+for i in aadish aadharsh kenab darshan suman 
+do
+echo "Welcome to IT&NOC $i"
+done

@@ -1,0 +1,14 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 19 2023
+# Description: If then Script
+
+num=10
+read input
+if [ "$input" -eq "$num" ]
+then
+ echo "your answer is correct"
+else
+ echo "wrong answer"
+
+fi # fi is an exit statement of if.
